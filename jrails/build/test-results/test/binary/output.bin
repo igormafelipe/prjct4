@@ -1,0 +1,10 @@
+File already exists.
+File already exists.
+File already exists.
+)BOOK CLASS: class jrails.ModelTest$Book
+File already exists.
+here1
+here3
+here4
+class java.lang.Class
+Ajava.lang.NoSuchMethodException: jrails.ModelTest$Book.<init>()
