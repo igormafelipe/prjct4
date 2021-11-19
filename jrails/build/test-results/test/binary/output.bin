@@ -7,4 +7,5 @@
 here3
 here4
 class java.lang.Class
-Ajava.lang.NoSuchMethodException: jrails.ModelTest$Book.<init>()
+here5
+?java.lang.IllegalArgumentException: wrong number of arguments

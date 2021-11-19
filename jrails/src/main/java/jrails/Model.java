@@ -93,10 +93,11 @@ public class Model {
 
                 System.out.println("here4");
                 System.out.println(c.getClass());
-                Constructor<T> constr = c.getConstructor();
+                Constructor<?>[] constructors = c.getDeclaredConstructors();
                 System.out.println("here5");
-                Object obj = constr.newInstance();
+                Object obj = constructors[0].newInstance();
                 System.out.println("here6");
+
                 for (int i = 0; i < fields.length; i++) {
                     fields[i].set(obj, splitted[i]);
                     Field objId = c.getField("id");

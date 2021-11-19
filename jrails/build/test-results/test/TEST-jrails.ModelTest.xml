@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="jrails.ModelTest" tests="2" skipped="0" failures="1" errors="0" timestamp="2021-11-19T02:47:21" hostname="MSI" time="0.023">
+<testsuite name="jrails.ModelTest" tests="2" skipped="0" failures="1" errors="0" timestamp="2021-11-19T03:37:24" hostname="MSI" time="0.048">
   <properties/>
-  <testcase name="testSaveAndFind" classname="jrails.ModelTest" time="0.018">
+  <testcase name="testSaveAndFind" classname="jrails.ModelTest" time="0.035">
     <failure message="java.security.InvalidParameterException" type="java.security.InvalidParameterException">java.security.InvalidParameterException
-	at jrails.Model.find(Model.java:109)
+	at jrails.Model.find(Model.java:110)
 	at jrails.ModelTest.testSaveAndFind(ModelTest.java:50)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
@@ -49,7 +49,7 @@
 	at worker.org.gradle.process.internal.worker.GradleWorkerMain.main(GradleWorkerMain.java:74)
 </failure>
   </testcase>
-  <testcase name="id" classname="jrails.ModelTest" time="0.005"/>
+  <testcase name="id" classname="jrails.ModelTest" time="0.012"/>
   <system-out><![CDATA[File already exists.
 File already exists.
 File already exists.
@@ -59,7 +59,8 @@ here1
 here3
 here4
 class java.lang.Class
-java.lang.NoSuchMethodException: jrails.ModelTest$Book.<init>()
+here5
+java.lang.IllegalArgumentException: wrong number of arguments
 ]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

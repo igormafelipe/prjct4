@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="jrails.ViewTest" tests="1" skipped="0" failures="1" errors="0" timestamp="2021-11-19T02:47:21" hostname="MSI" time="0.0">
+<testsuite name="jrails.ViewTest" tests="1" skipped="0" failures="1" errors="0" timestamp="2021-11-19T03:37:24" hostname="MSI" time="0.001">
   <properties/>
-  <testcase name="empty" classname="jrails.ViewTest" time="0.0">
+  <testcase name="empty" classname="jrails.ViewTest" time="0.001">
     <failure message="java.lang.UnsupportedOperationException" type="java.lang.UnsupportedOperationException">java.lang.UnsupportedOperationException
 	at jrails.View.empty(View.java:5)
 	at jrails.ViewTest.empty(ViewTest.java:14)

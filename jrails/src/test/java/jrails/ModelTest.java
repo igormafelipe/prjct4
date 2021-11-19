@@ -10,16 +10,6 @@ import static org.hamcrest.core.IsNull.notNullValue;
 import static org.junit.Assert.assertThat;
 
 public class ModelTest {
-
-    class Book extends Model {
-        @Column
-        public String title;
-        @Column
-        public String author;
-        @Column
-        public int num_copies;
-    }
-
     private Model model;
 
     @Before
